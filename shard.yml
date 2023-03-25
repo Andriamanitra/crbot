@@ -1,0 +1,13 @@
+name: crbot
+version: 0.1.0
+
+authors:
+  - Andriamanitra
+
+targets:
+  crbot:
+    main: src/crbot.cr
+
+crystal: 1.7.2
+
+license: MIT

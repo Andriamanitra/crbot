@@ -1,0 +1,17 @@
+[connection]
+server = "irc.chat.twitch.tv"
+port = 6697
+username = "justinfan66"
+nickname = "justinfan66"
+# password can't be specified – it is read from environment variable BOT_PASS
+
+channels =
+- "#twitch"
+
+[commands.github]
+pattern = "!github"
+response = "https://github.com/andriamanitra/crbot"
+
+[commands.crystal]
+pattern = "!crystal"
+response = "https://crystal-lang.org"
